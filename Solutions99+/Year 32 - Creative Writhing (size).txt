@@ -2,10 +2,8 @@
 -- 32: Creative Writhing --
 
 a:
-if c < 99:
-	pickup c
-	write 99
-	drop
-endif
-step w,n,s,e
+step nw,w,sw,n,s,ne,e,se
+pickup c
+write 99
+drop
 jump a
